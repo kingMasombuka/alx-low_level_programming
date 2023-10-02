@@ -9,9 +9,10 @@
  */
 void hash_table_print(const hash_table_t *ht)
 {
-	hash_node_t *node;
-	unsigned long int i;
+	
 	unsigned char comma_flag = 0;
+    hash_node_t *node;
+	unsigned long int i;
 
 	if (ht == NULL)
 		return;
